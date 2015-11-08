@@ -2,3 +2,4 @@
 
 * clean jetty:run
 * curl http://localhost:8080/servlet3/demo
+* curl http://localhost:8080/servlet3/asyncdemo
