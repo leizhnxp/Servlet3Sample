@@ -1,4 +1,4 @@
-FROM maven:3.3.3
+FROM maven
 RUN groupadd -r admin && useradd -r -g admin admin
 RUN mkdir -p /home/admin/.m2
 RUN wget http://maven.oschina.net/static/xml/settings.xml -O /home/admin/.m2/settings.xml
