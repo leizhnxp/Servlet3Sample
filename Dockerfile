@@ -10,4 +10,4 @@ COPY . /tmp/project/
 WORKDIR /tmp/project/
 RUN mvn clean package
 EXPOSE 8080
-CMD mvn etty:run
+CMD mvn jetty:run
